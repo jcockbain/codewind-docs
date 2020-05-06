@@ -4,16 +4,16 @@ title: Getting Started
 description: Getting Started
 keywords: install, Codewind, remote, hosted, cloud, standalone, get started, getting started, IDE, VS Code, Eclipse, Eclipse Che, IntelliJ
 duration: 1 minute
-permalink: gettingstarted
+permalink: nah
 type: document
 ---
 
-# Getting Started with Codewind
+## Getting Started with Codewind
 
 **You can try out Codewind by using the local configuration**. For local use of Codewind, and also the pre-requisite steps for **remote use of Codewind**, select from:
 
 * [VS Code](./vsc-getting-started.html)
-* [Eclipse](./eclipse-getting-started.html) 
+* [Eclipse](./eclipse-getting-started.html)
 * [IntelliJ](./intellij-getting-started.html)
 
 **Codewind as a hosted application in the cloud** If you want to go straight to using codewind as a hosted application in the cloud, select the [Eclipse Che instructions](./eclipseche-codewind-overview.html)

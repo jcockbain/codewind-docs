@@ -6,7 +6,7 @@
   children:
     - title: 'VS Code'
       children:
-      - title: 'Installing Codewind for VS Code'
+      - title: 'Installing Codewind for Code'
         url: vsc-getting-started.html
       - title: 'Creating your first Codewind project with Codewind for VS Code'
         url: vsc-firstproject.html
@@ -48,7 +48,7 @@
       - title: 'Configuring Codewind for Tekton pipelines'
         url: che-tektonpipelines.html
       - title: 'OpenShift Do (odo) support in Codewind'
-        url: che-odo-support.html         
+        url: che-odo-support.html
       - title: 'Adding the OpenShift internal registry with Codewind'
         url: openshiftregistry.html
       - title: 'Uninstalling Codewind for Eclipse Che'
@@ -71,7 +71,7 @@
       url: remote-setupregistries.html
     - title: 'Creating and importing projects'
       url: remotedeploy-projects-vscode.html
-       
+
 - title: 'Working with templates'
   url: workingwithtemplates.html
 
@@ -84,16 +84,16 @@
     - title: 'Project actions'
       url: project-actions.html
     - title: 'Project settings'
-      url: project-settings.html 
+      url: project-settings.html
     - title: 'Referencing files external to a project'
       url: referencing-files.html
     - title: 'Developing with packages from private registries and repositories'
-      url: private-registries.html  
+      url: private-registries.html
     - title: 'Using Codewind offline'
       url: offline-codewind.html
     - title: 'Debugging in Codewind'
       url: debugging.html
-      
+
 - title: 'Performance monitoring'
   children:
     - title: 'Understanding the Metrics Dashboard'
@@ -107,6 +107,6 @@
       url: open-api-tools-for-vscode.html
     - title: 'Codewind OpenAPI Tools for Eclipse'
       url: open-api-tools-for-eclipse.html
- 
+
 - title: 'Troubleshooting'
   url: troubleshooting.html

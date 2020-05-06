@@ -2,51 +2,46 @@
 <!-- Bootstrap row -->
 <div class="row" id="body-row">
     <!-- Sidebar -->
-    
-    
 
-    <div id="sidebar-container" class="bg-light"  role="navigation" aria-label="sidebar">
+    <div id="sidebar-container" class="bg-light" role="navigation" aria-label="sidebar">
         <!-- Bootstrap List Group -->
         <ul class="list-group sticky-top bg-light cw-sticky-offset">
-            
+
             <!-- Hard coded TOC -->
             <!-- Start single page getting started -->
-            
-            {% for entry in site.data.newstoc %}
-		      {% if entry.children %}
-			
-			  {% else %}
-			  
-				<a href="{{ entry.url }}" 
-				    {% assign cls = "bg-light list-group-item list-group-item-action" %}
-				    {% assign url = '/' | append: entry.url | remove: ".html" %}
-					{% if url == page.url %}
-						{% assign cls = "cw-current-page bg-light list-group-item list-group-item-action" %}
-					{% endif %}
-					class="{{cls}}">
-					{{ entry.title}}
-	            </a>
-	            
-			  {% endif %}
-			{% endfor %}
-			
-			<!-- END hard coded TOC -->
 
-            
+            {% for entry in site.data.newstoc %}
+            {% if entry.children %}
+
+            {% else %}
+
+            <a href="{{ entry.url }}" {% assign cls = "bg-light list-group-item list-group-item-action" %}
+                {% assign url = '/' | append: entry.url | remove: ".html" %} {% if url == page.url %}
+                {% assign cls = "cw-current-page bg-light list-group-item list-group-item-action" %} {% endif %}
+                class="{{cls}}">
+                {{ entry.title}}
+            </a>
+
+            {% endif %}
+            {% endfor %}
+
+            <!-- END hard coded TOC -->
+
+
         </ul>
         <!-- List Group END-->
     </div>
     <!-- sidebar-container END -->
     <!-- MAIN -->
     <div id="content-container">
-    		<div class="py-5 px-5">
-    		    <div class="cw-docs-spacer"></div>
-        		<div role="main">{{ content }}</div>
+        <div class="py-5 px-5">
+            <div class="cw-docs-spacer"></div>
+            <div role="main">{{ content }}</div>
         </div>
-        
+
     </div>
-    
+
 </div>
 {% include footer.html %}
 <!-- Main Col END -->
- {% include body-end.html %}
+{% include body-end.html %}

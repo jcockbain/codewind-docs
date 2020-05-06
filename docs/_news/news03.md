@@ -14,4 +14,4 @@ Codewind 0.3.0 includes Appsody and Tekton.
 - Debug support is included.
 - Automatic installation of Appsody into Codewind is included.
 - Displaying of all the available incubator stacks from Appsody is included. The stack list is dynamically generated instead of hard coded.
-- IDE support is improved with better compiling and getting the project free of errors in the IDE.
+- IDE support is improved with better compiling and getting the project free of errors in the IDE.********
