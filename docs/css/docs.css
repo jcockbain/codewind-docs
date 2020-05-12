@@ -88,12 +88,12 @@ code {
 
 /* Separators */
 .cw-sidebar-separator-title {
-    
+
     height: 35px;
 }
 
 .cw-sidebar-separator {
-    
+
     height: 25px;
 }
 
@@ -137,7 +137,7 @@ code {
 }
 
 #content-container > div {
-    padding-top: 131px;
+    padding-top: 100px;
 }
 
 
@@ -248,7 +248,7 @@ code {
 	    position: absolute;
 	    top: -15px;
 	}
-	
+
 	#sidebar-container {
         padding-top: 101px;
     }
@@ -266,8 +266,8 @@ code {
         width: 100vw;
         	min-height: 0;
     }
-    
-    
+
+
 }
 
 /* code formatter overrides for accessibility */
