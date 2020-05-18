@@ -6,11 +6,13 @@ layout: getting-started
   <div class="row blue-row p-5">
     <h2>Getting started</h2>
     <div class="pb-3">
-      Built from the ground up, Codewind, an <a href="https://github.com/eclipse/codewind">open source project</a>, helps both
+      Built from the ground up, Codewind, an <a href="https://github.com/eclipse/codewind">open source project</a>,
+      helps both
       developers and DevOps engineers to develop, build and run containerized
       applications quickly and easily, whilst also maintaining application and
       runtime environment standards, by extending their Integrated Development Environment (IDE).
-      <a href="overview.html">Learn more</a> or <a href="want-to-get-a-microservice-up-and-running-super-quickly-try-codewind.html">see it in action</a>.
+      <a href="https://www.eclipse.org/codewind/overview.html">Learn more</a> or <a
+        href="want-to-get-a-microservice-up-and-running-super-quickly-try-codewind.html">see it in action</a>.
     </div>
     <div class="card-deck w-100">
       <div class="card getting-started-card">
@@ -61,7 +63,8 @@ layout: getting-started
         </div>
         <div class="card-body d-flex flex-column justify-content-between">
           <p>
-            Download to develop, build and run entirely on the cloud.
+            Download to develop, build and run entirely on the cloud, <a
+              href="eclipseche-codewind-overview.html">step-by-step instructions</a>.
           </p>
           <div class="col d-flex flex-row center justify-content-around">
             <a href="https://github.com/eclipse/codewind-che-plugin/blob/0.9.0/setup/install_che/che-operator/codewind-checluster.yaml"
@@ -87,7 +90,8 @@ layout: getting-started
             </h4>
           </div>
           <p>
-            If you are a developer, learn how to set up and start using Codewind on <a href="vsc-getting-started.html">VS Code</a>,
+            If you are a developer, learn how to set up and start using Codewind on <a
+              href="vsc-getting-started.html">VS Code</a>,
             <a href="eclipse-getting-started.html">Eclipse</a>,
             or <a href="intellij-getting-started.html">IntelliJ</a>.
           </p>
@@ -152,7 +156,7 @@ layout: getting-started
     </div>
     <div class="row w-100">
       <div class="col text-right">
-        <a href="" class="pr-lg-3">
+        <a href="guides.html" class="pr-lg-3">
           ...more guides
         </a>
       </div>
@@ -164,7 +168,7 @@ layout: getting-started
       Media
     </h2>
     <div class="card-deck w-100">
-      {% assign blog = site.blog.last %}
+      {% assign blog = site.blog | where: "title", "Sneak Peek: Remote Development with Codewind" | first %}
       <div class="card getting-started-media-card">
         <div class="embed-responsive embed-responsive-16by9">
           <img class="blog-image" alt="blog-image" title="blog-image" src="{{ blog.title_img }}" />
@@ -181,9 +185,9 @@ layout: getting-started
               {{ blog.title }}
             </a>
           </h5>
-          <h6 class="card-subtitle text-muted">
-            Brought to you by {{ blog.author }}
-          </h6>
+          <p class="card-text">
+            {{ blog.blog_description }}
+          </p>
         </div>
         <div class="card-footer text-right">
           <a href="blog.html">
@@ -208,6 +212,11 @@ layout: getting-started
               Codewind Node.js code profiler
             </a>
           </h5>
+          <p class="card-text">
+            In this video you can see how the Eclipse Codewind Node.js profiler plugin for VS Code allows a cloud native
+            developer to profile their Node.js applications, and quickly identify potential bottlenecks and where most
+            of the time is spent executing their code.
+          </p>
         </div>
         <div class="card-footer text-right">
           <a href="https://www.youtube.com/channel/UCnKCVK6RFDyHFqUmXlAhCHQ">
