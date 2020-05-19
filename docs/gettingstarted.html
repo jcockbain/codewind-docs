@@ -5,14 +5,14 @@ layout: getting-started
 <div class="getting-started-container container-fluid">
   <div class="row blue-row p-5">
     <h2>Getting started</h2>
-    <div class="pb-3">
+    <div class="pb-3 lead">
       Built from the ground up, Codewind, an <a href="https://github.com/eclipse/codewind">open source project</a>,
       helps both
       developers and DevOps engineers to develop, build and run containerized
       applications quickly and easily, whilst also maintaining application and
       runtime environment standards, by extending their Integrated Development Environment (IDE).
       <a href="https://www.eclipse.org/codewind/overview.html">Learn more</a> or <a
-        href="want-to-get-a-microservice-up-and-running-super-quickly-try-codewind.html">see it in action</a>.
+        href="/codewind/want-to-get-a-microservice-up-and-running-super-quickly-try-codewind.html">see it in action</a>.
     </div>
     <div class="card-deck w-100">
       <div class="card getting-started-card">
@@ -28,12 +28,12 @@ layout: getting-started
           </div>
         </div>
         <div class="card-body d-flex flex-column">
-          <p>
+          <p class="lead">
             Download to develop, build and run on your desktop, or to develop on
             your desktop but build and run on the cloud.
-            Follow step-by-step instructions for <a href="vsc-getting-started.html">VS Code</a>,
-            <a href="eclipse-getting-started.html">Eclipse</a>,
-            or <a href="intellij-getting-started.html">IntelliJ</a>.
+            Follow step-by-step instructions for <a href="/codewind/vsc-getting-started.html">VS Code</a>,
+            <a href="/codewind/eclipse-getting-started.html">Eclipse</a>,
+            or <a href="/codewind/intellij-getting-started.html">IntelliJ</a>.
           </p>
           <div class="col btn-group-lg d-flex justify-content-around flex-column flex-xl-row">
             <a href="https://marketplace.visualstudio.com/items?itemName=IBM.codewind"
@@ -62,7 +62,7 @@ layout: getting-started
           </div>
         </div>
         <div class="card-body d-flex flex-column justify-content-between">
-          <p>
+          <p class="lead">
             Download to develop, build and run entirely on the cloud, <a
               href="eclipseche-codewind-overview.html">step-by-step instructions</a>.
           </p>
@@ -89,11 +89,11 @@ layout: getting-started
               Developer
             </h4>
           </div>
-          <p>
+          <p class="lead">
             If you are a developer, learn how to set up and start using Codewind on <a
-              href="vsc-getting-started.html">VS Code</a>,
-            <a href="eclipse-getting-started.html">Eclipse</a>,
-            or <a href="intellij-getting-started.html">IntelliJ</a>.
+              href="/codewind/vsc-getting-started.html">VS Code</a>,
+            <a href="/codewind/eclipse-getting-started.html">Eclipse</a>,
+            or <a href="/codewind/intellij-getting-started.html">IntelliJ</a>.
           </p>
         </div>
       </div>
@@ -105,7 +105,7 @@ layout: getting-started
               SysAdmin or Devops
             </h4>
           </div>
-          <p>
+          <p class="lead">
             If you are a sysadmin or DevOps engineer, learn how to
             <a href="remote-deploying-codewind">deploy Codewind remotely</a>.
           </p>
@@ -119,7 +119,7 @@ layout: getting-started
               Solution Architect
             </h4>
           </div>
-          <p>
+          <p class="lead">
             If you are responsible for defining standards for the application
             and runtime environments, such as framework and software levels see,
             <a href="workingwithtemplates.html">Working with templates</a>.
@@ -143,7 +143,7 @@ layout: getting-started
             </h4>
             <img alt="guide icon" class="pl-2" title="guide icon" src="{{ post.icon }}" />
           </div>
-          <ul>
+          <ul class="lead">
             {% for obj in post.objectives %}
             <li>
               {{ obj }}
@@ -156,7 +156,7 @@ layout: getting-started
     </div>
     <div class="row w-100">
       <div class="col text-right">
-        <a href="guides.html" class="pr-lg-3">
+        <a href="" class="pr-lg-3 lead">
           ...more guides
         </a>
       </div>
@@ -175,7 +175,7 @@ layout: getting-started
         </div>
         <div class="card-body">
           <p class="card-text text-right">
-            <small class="text-muted">
+            <small class="text-muted lead">
               {{ blog.date | date_to_string }},
               length: {{ blog.duration}}
             </small>
@@ -185,11 +185,11 @@ layout: getting-started
               {{ blog.title }}
             </a>
           </h5>
-          <p class="card-text">
+          <p class="card-text lead">
             {{ blog.blog_description }}
           </p>
         </div>
-        <div class="card-footer text-right">
+        <div class="card-footer text-right lead">
           <a href="blog.html">
             ...more blogs
           </a>
@@ -203,7 +203,7 @@ layout: getting-started
         </div>
         <div style class="card-body">
           <p class="card-text text-right">
-            <small class="text-muted">
+            <small class="text-muted lead">
               April 07, 2020
             </small>
           </p>
@@ -212,13 +212,13 @@ layout: getting-started
               Codewind Node.js code profiler
             </a>
           </h5>
-          <p class="card-text">
+          <p class="card-text lead">
             In this video you can see how the Eclipse Codewind Node.js profiler plugin for VS Code allows a cloud native
             developer to profile their Node.js applications, and quickly identify potential bottlenecks and where most
             of the time is spent executing their code.
           </p>
         </div>
-        <div class="card-footer text-right">
+        <div class="card-footer text-right lead">
           <a href="https://www.youtube.com/channel/UCnKCVK6RFDyHFqUmXlAhCHQ">
             ...more videos
           </a>
